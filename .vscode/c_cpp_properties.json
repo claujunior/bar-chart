@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",                          // Inclui o diretório do seu projeto
+                "/usr/include/c++/13",                             // Diretório de cabeçalhos do GCC (ajuste para a versão correta)
+                "/usr/include/x86_64-linux-gnu/c++/13",            // Diretório para a arquitetura do sistema
+                "/usr/include"                                    // Diretório dos cabeçalhos do sistema
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
